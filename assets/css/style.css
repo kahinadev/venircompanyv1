@@ -397,7 +397,7 @@ h4 {
 }
 @media screen and (max-width: 480px) {
   .navbar-absolute {
-    margin-left: 20px !important;
+    margin-left: 0px !important;
   }
 }
 @media screen and (max-width: 991px) {
@@ -408,26 +408,11 @@ h4 {
 }
 @media screen and (max-width: 991px) {
   .navbar-absolute .navbar-collapse {
-    top: 0;
-    left: 0;
-    z-index: 99;
-    width: 280px;
-    height: 100%;
-    position: fixed;
     transition: 0.5s;
-    overflow-x: hidden;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background-color: white;
+    background-color: #0A0E20;
   }
   .navbar-absolute .navbar-collapse .navbar-nav {
-    padding: 50px;
-  }
-  .navbar-absolute .navbar-collapse .navbar-nav .nav-link.active {
-    color: #3b6a80;
-  }
-  .navbar-absolute .navbar-collapse .navbar-nav .nav-link {
-    color: #0A0E20;
+    padding: 20px;
   }
 }
 
