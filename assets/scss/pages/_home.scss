@@ -1,0 +1,49 @@
+.presentation {
+    .slide {
+        margin-left: -12%;
+        margin-right: -9%;
+    }
+
+
+    .cnt {
+        p {
+            padding-right: 20%;
+
+            @media screen and (max-width: $mobile) {
+                padding-right: 0%;
+            }
+        }
+    }
+
+    .cnt-img {
+        position: relative;
+
+        @media screen and (max-width: $mobile) { 
+            margin-left: 7% !important;
+        }
+
+        @media screen and (max-width: $tablet-m) {
+            margin-left: 15%;
+        }
+
+        img {
+            width: 71%;
+            margin-top: 6%;
+            margin-bottom: 4%;
+
+            @media screen and (max-width: $mobile) {
+                margin-top: 10% !important;
+                margin-left: 0% !important;
+            }
+        }
+    }
+}
+
+.projects {
+    .button,
+    .slide-pills {
+        @media screen and (max-width: $mobile) {
+            margin-top: 15%;
+        }
+    }
+}

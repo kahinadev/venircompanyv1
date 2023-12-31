@@ -1,0 +1,29 @@
+.inf-supp {
+    left: 20px;
+    z-index: 10;
+    bottom: 20px;
+    width: 200px;
+    display: block ruby;
+    position: fixed;
+    background-color: white;
+
+    .languages {
+        margin-left: 30px;
+        margin-top: 15px;
+
+        .dropdown-menu.show {
+            border: none;
+            margin-top: -10px;
+            margin-left: -10px !important;
+
+            .dropdown-item {
+                font-size: 15px;
+            }
+        }
+    }
+
+    .search-form {
+        margin-top: 5px;
+        margin-left: 14%;
+    }
+}

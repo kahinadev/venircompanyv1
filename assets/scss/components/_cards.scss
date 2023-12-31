@@ -1,0 +1,28 @@
+.card {
+    border: none;
+    padding: $top3;
+    margin-top: $top3;
+
+    h3,
+    h4 {
+        font-size: 22px;
+        padding-bottom: $top3;
+        border-bottom: 0.3px solid $blue;
+
+        @media screen and (max-width: $mobile) {
+            font-size: 18px !important;
+        }
+    }
+
+    p {
+        padding-top: $top2;
+    }
+
+    .name {
+        font-size: 19px;
+    }
+
+    .review {
+        padding-top: 0px;
+    }
+}

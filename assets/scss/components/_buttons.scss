@@ -1,0 +1,36 @@
+.button {
+    border: none;
+    padding: 18px;
+    font-size: 16px;
+    font-weight: 800;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    font-family: $subtitle;
+
+    @media screen and (max-width: $mobile) {
+        font-size: 15px !important;
+    }
+}
+
+.button-principal {
+    color: $light;
+    border: 3px solid $dark;
+    background-size: 500px;
+    background-position: 0%;
+    background-repeat: no-repeat;
+    transition: background 300ms ease-in-out;
+    -webkit-transition: background 300ms ease-in-out;
+    background-image:
+        -webkit-linear-gradient(30deg, $dark 50%, transparent 50%);
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: $dark;
+        background-position: 100%;
+        border: 3px solid $dark;
+    }
+}

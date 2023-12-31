@@ -1,0 +1,73 @@
+// Position 
+
+.sticky {
+    top: 0 !important;
+    width: 100% !important;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    position: fixed !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+}
+
+// Background
+
+.white {
+    background-color: $light;
+}
+
+.navbardark {
+    background-color: $dark;
+}
+
+// Divider 
+
+.divider-tit {
+    width: 14%;
+    z-index: -3;
+    height: 60px;
+    position: absolute;
+    margin: -76px 0px 0px -34px;
+
+    i {
+        opacity: 0;
+    }
+}
+
+// Width 
+
+.max {
+    width: 100%;
+}
+
+// Radius 
+
+.radius {
+    border-radius: $radius;
+}
+
+.sec-radius {
+    border-radius: $sec-radius;
+}
+
+// Margin 
+
+.top-2 {
+    margin-top: $top2;
+}
+
+.top-3 {
+    margin-top: $top3;
+}
+
+// Padding 
+
+.n-pa {
+    padding: 0px;
+}
+
+.pa-3 {
+    padding: $top3;
+}
+
+// Shadow 

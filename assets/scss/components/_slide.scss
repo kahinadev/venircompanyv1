@@ -1,0 +1,36 @@
+.indicators {
+    bottom: -40px;
+    text-align: center;
+    position: relative;
+
+    .btn {
+        width: 200px;
+        height: 10px !important;
+        border: none !important;
+        background-color: $light;
+
+        @media screen and (max-width: $mobile) {
+            width: 80px;
+        }
+    }
+}
+
+.slide-pills {
+    margin-top: 5%;
+    .nav-pills {
+        .nav-link {
+            padding: 0px 0 30px 0;
+            transition: $sec5;
+            img {
+                opacity: 0.5;
+            }
+        }
+
+        .nav-link.active {
+            background-color: transparent !important;
+            img {
+                opacity: 1;
+            }
+        }
+    }
+}
